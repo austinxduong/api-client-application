@@ -10,7 +10,7 @@ function HistoryList({ history }) {
       {history.map((item) => (
         <li key={item.id} className={styles.listItem}>
           <HistoryItem
-            method={item.method}
+            method={item.hmethod}
             URL={item.URL}
           />
         </li>
